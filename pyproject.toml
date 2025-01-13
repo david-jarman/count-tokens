@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "token-counter"
+version = "0.1.0"
+description = "A CLI tool to count tokens in text using the OpenAI Tiktoken library."
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = [
+    "tiktoken"
+]
+
+[project.entry-points.console_scripts]
+token-counter = "token_counter.cli:main"
