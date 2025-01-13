@@ -7,10 +7,16 @@ name = "count-tokens"
 version = "0.1.0"
 description = "A CLI tool to count tokens in text using the OpenAI Tiktoken library."
 readme = "README.md"
+authors = [{name = "David Jarman"}]
+license = {text = "MIT"}
 requires-python = ">=3.6"
 dependencies = [
     "tiktoken"
 ]
+
+[project.urls]
+Homepage = "https://github.com/david-jarman/count-tokens"
+Issues = "https://github.com/david-jarman/count-tokens/issues"
 
 [project.entry-points.console_scripts]
 count-tokens = "count_tokens.cli:main"

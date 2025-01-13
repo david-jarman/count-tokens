@@ -2,6 +2,8 @@
 
 Token Counter is a Python-based command-line tool to estimate the number of tokens in a given text using OpenAI's `tiktoken` library. It supports direct text input and piped input, making it versatile for various use cases.
 
+Will not be published to pypi.. There are other, better versions out there.
+
 ---
 
 ## Features
@@ -36,12 +38,6 @@ Token Counter is a Python-based command-line tool to estimate the number of toke
    ```bash
    pip install .
    ```
-
-### Install from PyPI
-*(Optional: After publishing to PyPI)*
-```bash
-pip install count-tokens
-```
 
 ---
 
