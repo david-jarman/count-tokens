@@ -18,7 +18,7 @@ Token Counter is a Python-based command-line tool to estimate the number of toke
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd token_counter
+   cd count-tokens
    ```
 
 2. Create and activate a virtual environment:
@@ -40,7 +40,7 @@ Token Counter is a Python-based command-line tool to estimate the number of toke
 ### Install from PyPI
 *(Optional: After publishing to PyPI)*
 ```bash
-pip install token-counter
+pip install count-tokens
 ```
 
 ---
@@ -53,24 +53,24 @@ Once installed, you can use the tool from anywhere:
 
 1. Tokenize text passed as an argument:
    ```bash
-   token-counter "This is a test."
+   count-tokens "This is a test."
    ```
 
 2. Tokenize piped input:
    ```bash
-   echo "This is a test." | token-counter
+   echo "This is a test." | count-tokens
    ```
 
 3. Specify a model (optional):
    ```bash
-   token-counter "This is a test." --model gpt-4
+   count-tokens "This is a test." --model gpt-4
    ```
 
 ### Run Locally Without Installation
 
 1. Navigate to the project directory:
    ```bash
-   cd token_counter
+   cd count-tokens
    ```
 
 2. Create and activate a virtual environment:
@@ -81,12 +81,12 @@ Once installed, you can use the tool from anywhere:
 
 3. Run the script directly:
    ```bash
-   python -m token_counter "This is a test."
+   python -m count-tokens "This is a test."
    ```
 
 4. Test with piped input:
    ```bash
-   echo "This is a test." | python -m token_counter
+   echo "This is a test." | python -m count-tokens
    ```
 
 ---
@@ -111,12 +111,12 @@ Once installed, you can use the tool from anywhere:
 
 1. Install the package:
    ```bash
-   pip install dist/token_counter-0.1.0-py3-none-any.whl
+   pip install dist/count-tokens-0.1.0-py3-none-any.whl
    ```
 
 2. Run the tool:
    ```bash
-   token-counter "Test text."
+   count-tokens "Test text."
    ```
 
 ---
